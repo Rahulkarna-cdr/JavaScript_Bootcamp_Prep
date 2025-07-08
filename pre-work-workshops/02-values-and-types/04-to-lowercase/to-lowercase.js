@@ -1,1 +1,2 @@
 // YOUR CODE BELOW
+console.log("JAVASCRIPT IS A CODING LANGUAGE".toUpperCase());
