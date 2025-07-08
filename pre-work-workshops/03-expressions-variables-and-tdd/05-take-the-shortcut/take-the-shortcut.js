@@ -5,4 +5,4 @@ happyNum /=1000;
 happyNum +=7
 happyNum -=3
 
-console.log(happyNum)
+console.log(happyNum);
