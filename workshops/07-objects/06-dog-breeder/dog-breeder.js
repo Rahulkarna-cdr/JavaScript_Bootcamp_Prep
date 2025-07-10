@@ -1,17 +1,21 @@
-// ### Frequency Analysis
+// ### Dog Breeder
 
-// Define a function `frequencyAnalysis` that accepts a string of lower-case
-// letters.
+// Define a function, `dogBreeder`, that accepts up to two optional arguments:
+//   1. name (string)
+//   2. age (number)
 
-// `frequencyAnalysis` should return an object containing the count for each letter
-// in the string.
+// `dogBreeder` should return an object that represents a new dog! If the user
+// doesn't define a name, assume the dog's name is Steve. If the user doesn't
+// define the dog's age, assume the dog's age is 0.
 
 // ```javascript
-// frequencyAnalysis('abca'); // => {a: 2, b: 1, c: 1}
+// dogBreeder('Sam', 12)    // => {name: 'Sam', age: 12}
+
+// dogBreeder(15)    // => {name:'Steve', age: 15}
 // ```
 
 // YOUR CODE BELOW
-const dogBreeder = (name='Steve',age) => {
+const dogBreeder = (name='Steve',age=0) => {
 
     if(typeof name ==='number'){
         age=name;
