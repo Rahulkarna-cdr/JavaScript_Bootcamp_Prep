@@ -13,7 +13,7 @@ Do not use .splice in your function.
 ```javascript
 let myArray = [1, 2, 3];
 
-mySplice(myArray, 1, 1, 'apples')) // => [2]
+mySplice(myArray, 1, 1, 'apples') // => [2]
 
 console.log(myArray)    // [1,'apples', 3]
 ```
